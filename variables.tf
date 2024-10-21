@@ -21,3 +21,8 @@ variable "security_group_ids" {
   #default = ["sg-048c74456592b8877"]
 }
 
+variable "instance_names" {
+  type = list(string)
+  #default = ["mysql" , "backend" , "frontend"]
+}
+
